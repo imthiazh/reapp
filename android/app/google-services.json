@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "937858876165",
+    "firebase_url": "https://reapp-4a214.firebaseio.com",
+    "project_id": "reapp-4a214",
+    "storage_bucket": "reapp-4a214.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937858876165:android:e890ad4f8b9b2ea2462d6c",
+        "android_client_info": {
+          "package_name": "com.reappindia.reapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937858876165-nvbjcdv2vrdmoektrhe638qhao06f0g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQZ_QL27bnsq--VU6oWoYsjmm-pAaujHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937858876165-nvbjcdv2vrdmoektrhe638qhao06f0g4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
