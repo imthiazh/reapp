@@ -1,6 +1,6 @@
 # reapp
 
-A new Flutter project.
+A new Flutter project by the ReApp Team.
 
 ## Getting Started
 
