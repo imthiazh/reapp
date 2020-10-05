@@ -8,6 +8,11 @@ MERGED from C:\Users\Imthiaz\AndroidStudioProjects\reapp\android\app\src\main\An
 MERGED from [:firebase_auth] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_auth\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-15:12
 MERGED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core_web] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:phone_number] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\phone_number\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\flutter_plugin_android_lifecycle\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_keyboard_visibility] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\flutter_keyboard_visibility\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.1.aar\6f777b5e91feb29b9914a95b3d0390f3\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-19.2.0.aar\c77919f3c23b363829005e886a0b2d78\AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-firestore-21.3.0.aar\aac4e51296563d1c90665b2b5fbc35e5\AndroidManifest.xml:2:1-26:12
@@ -40,6 +45,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Imthiaz\.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\daf4ece12bdcdaac192fb65657a34733\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\b0e91e4f46d28f07135a090057094b39\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-components-16.0.0.aar\869294fab725a1015866c6ed9069321d\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\exifinterface-1.3.0.aar\a15020250d147a27446f620785f56f0c\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\faee512287b40caedbc76f2ac526940d\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\d37918301ecd42c8cec68704b82894e6\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\a0b476681684cf904990ae96dae89d10\AndroidManifest.xml:17:1-22:12
@@ -73,6 +79,8 @@ MERGED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\buil
 MERGED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:5-20:19
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.1.aar\6f777b5e91feb29b9914a95b3d0390f3\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.1.aar\6f777b5e91feb29b9914a95b3d0390f3\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-19.2.0.aar\c77919f3c23b363829005e886a0b2d78\AndroidManifest.xml:23:5-40:19
@@ -161,6 +169,16 @@ MERGED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\buil
 MERGED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\cloud_firestore\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:phone_number] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\phone_number\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:phone_number] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\phone_number\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\flutter_plugin_android_lifecycle\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\flutter_plugin_android_lifecycle\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_keyboard_visibility] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\flutter_keyboard_visibility\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_keyboard_visibility] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\flutter_keyboard_visibility\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.1.aar\6f777b5e91feb29b9914a95b3d0390f3\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.1.aar\6f777b5e91feb29b9914a95b3d0390f3\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-19.2.0.aar\c77919f3c23b363829005e886a0b2d78\AndroidManifest.xml:21:5-44
@@ -225,6 +243,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\b0e91e4f46d28f07135a090057094b39\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-components-16.0.0.aar\869294fab725a1015866c6ed9069321d\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-components-16.0.0.aar\869294fab725a1015866c6ed9069321d\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\exifinterface-1.3.0.aar\a15020250d147a27446f620785f56f0c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\exifinterface-1.3.0.aar\a15020250d147a27446f620785f56f0c\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\faee512287b40caedbc76f2ac526940d\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\faee512287b40caedbc76f2ac526940d\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\d37918301ecd42c8cec68704b82894e6\AndroidManifest.xml:20:5-22:41
@@ -307,6 +327,30 @@ ADDED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\f
 		ADDED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:17-123
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:17-67
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-19.2.0.aar\c77919f3c23b363829005e886a0b2d78\AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents

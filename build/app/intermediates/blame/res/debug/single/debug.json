@@ -272,6 +272,10 @@
         "source": "C:\\Users\\Imthiaz\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.1.0.aar\\0123832b881c95a8b4f0a9cdf3f41ddc\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
+        "merged": "C:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\res\\merged\\debug\\xml_flutter_image_picker_file_paths.xml.flat",
+        "source": "C:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\image_picker\\intermediates\\packaged_res\\debug\\xml\\flutter_image_picker_file_paths.xml"
+    },
+    {
         "merged": "C:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Imthiaz\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\a6740a9c0600c48838afa781ef510c89\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },

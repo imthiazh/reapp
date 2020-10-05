@@ -19,26 +19,26 @@ import 'models/user.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-	// This widget is the root of your application.
-	@override
-	Widget build(BuildContext context) {
-		return StreamProvider<BasicUser>.value(
+  // This widget is the root of your application.
+
+  @override
+  Widget build(BuildContext context) {
+    return StreamProvider<BasicUser>.value(
       value: AuthService().user_stream,
       child: MaterialApp(
-		  	home: Wrapper(),
+        home: Wrapper(),
         routes: {
-        '/home': (ctx) => Home(),
-        UpdateStats.routeName: (ctx) => UpdateStats(),
-        MyRewards.routeName: (ctx) => MyRewards(), //routes for navigation
-        CallCenter.routeName: (ctx) => CallCenter(),
-        HealthRoutine.routeName: (ctx) => HealthRoutine(),
-        LocationActivity.routeName: (ctx) => LocationActivity(),
-        MyProgress.routeName: (ctx) => MyProgress(),
-        Reward.routeName: (ctx) => Reward(),
-        AntiAlcoholics.routeName: (ctx) => AntiAlcoholics(),
-      },
-		  ),
-      
-		);
-	}
+          '/home': (ctx) => Home(),
+          UpdateStats.routeName: (ctx) => UpdateStats(),
+          MyRewards.routeName: (ctx) => MyRewards(), //routes for navigation
+          CallCenter.routeName: (ctx) => CallCenter(),
+          HealthRoutine.routeName: (ctx) => HealthRoutine(),
+          LocationActivity.routeName: (ctx) => LocationActivity(),
+          MyProgress.routeName: (ctx) => MyProgress(),
+          Reward.routeName: (ctx) => Reward(),
+          AntiAlcoholics.routeName: (ctx) => AntiAlcoholics(),
+        },
+      ),
+    );
+  }
 }
