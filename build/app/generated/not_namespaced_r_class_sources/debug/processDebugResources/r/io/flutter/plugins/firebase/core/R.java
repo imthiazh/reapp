@@ -127,6 +127,7 @@ public final class R {
         public static final int italic = 0x7f050033;
         public static final int line1 = 0x7f050035;
         public static final int line3 = 0x7f050036;
+        public static final int none = 0x7f050037;
         public static final int normal = 0x7f050038;
         public static final int notification_background = 0x7f050039;
         public static final int notification_main_column = 0x7f05003a;
@@ -167,7 +168,7 @@ public final class R {
         private string() {}
 
         public static final int common_google_play_services_unknown_issue = 0x7f090008;
-        public static final int status_bar_notification_info_overflow = 0x7f09001a;
+        public static final int status_bar_notification_info_overflow = 0x7f09001b;
     }
     public static final class style {
         private style() {}

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\app_dev\\projects\\reapp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "outputFile": "C:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\VCadmin\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\ea46ab129b494be92448effe3b8e3fe7\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\Imthiaz\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\0bdf3926c3fdf84da82fe9cadee224dd\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
