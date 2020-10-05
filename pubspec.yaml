@@ -29,6 +29,10 @@ dependencies:
   flutter_spinkit: "^4.0.0"
   carousel_pro: ^1.0.0
   percent_indicator: ^2.1.5
+  flutter_form_builder: ^3.14.0
+  emoji_feedback: ^0.1.0
+  
+  
 
 dev_dependencies:
   flutter_test:
