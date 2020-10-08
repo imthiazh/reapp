@@ -4,6 +4,11 @@ import 'package:reapp/shared/constants.dart';
 import 'package:reapp/shared/loading.dart';
 
 class SignIn extends StatefulWidget {
+
+  final Function toggleView;
+
+  SignIn({this.toggleView});
+
   @override
   _SignInState createState() => _SignInState();
 }
@@ -27,6 +32,13 @@ class _SignInState extends State<SignIn> {
         backgroundColor: Colors.red[400],
         title: Text("Sign In"),
         elevation: 0.00,
+        actions: <Widget>[
+          FlatButton.icon(
+            icon: Icon(Icons.person),
+            label: Text('Register'),
+            onPressed: () => widget.toggleView(),
+          ),
+        ],
       ),
       body: Container(
         padding: EdgeInsets.symmetric(vertical:20.0, horizontal: 50.0),

@@ -1,5 +1,9 @@
+import 'dart:convert';
+import 'package:http/http.dart' as http; 
 import 'package:carousel_pro/carousel_pro.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 import 'package:provider/provider.dart';
@@ -14,12 +18,24 @@ import 'package:reapp/screens/reward.dart';
 import 'package:reapp/screens/update_stats.dart';
 import 'package:reapp/widgets/main_drawer.dart';
 
-class Home extends StatelessWidget {
-  AuthService _auth = AuthService();
+class Home extends StatefulWidget {
+
+  @override
+  _HomeState createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
   
+  var _isLoading = false;
+  dynamic json_rs;
+
+
+  
+
+  AuthService _auth = AuthService();
+
   @override
   Widget build(BuildContext context) {
-
     Widget imageCarousel = Container(
       height: 300.0,
       child: Carousel(
@@ -137,27 +153,27 @@ class Home extends StatelessWidget {
                 progressColor: Colors.green,
               ),
             ),
-            UserIntro(),
-              SizedBox(height: 20.0),
-              Center(
-                child: Card(
-                  child: InkWell(
-                    splashColor: Colors.blue.withAlpha(30),
-                    onTap: () {
-                      print('Card tapped.');
-                    },
-                    child: Container(
-                      width: 300,
-                      height: 100,
-                      child: Text(
-                        'Days gone without alcohol : x',
-                        style:
-                            TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
-                      ),
-                    ),
-                  ),
-                ),
-              ),
+            // UserIntro(),
+            //   SizedBox(height: 20.0),
+            //   Center(
+            //     child: Card(
+            //       child: InkWell(
+            //         splashColor: Colors.blue.withAlpha(30),
+            //         onTap: () {
+            //           print('Card tapped.');
+            //         },
+            //         child: Container(
+            //           width: 300,
+            //           height: 100,
+            //           child: Text(
+            //             'Days gone without alcohol : x',
+            //             style:
+            //                 TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+            //           ),
+            //         ),
+            //       ),
+            //     ),
+            //   ),
           ],
         ),
       ),

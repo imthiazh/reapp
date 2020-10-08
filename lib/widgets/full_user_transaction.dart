@@ -19,6 +19,7 @@ void addTx(String title1, double amount2){
       title: title1,
       amount: amount2,
       date: DateTime.now(),
+      progress: 0.00
     );
 
   setState(() {
@@ -32,12 +33,14 @@ final List<Transaction> transactions = [
       title: 'New Shoes',
       amount: 69.99,
       date: DateTime.now(),
+      progress: 0.00
     ),
     Transaction(
       id: 't2',
       title: 'Weekly Groceries',
       amount: 16.53,
       date: DateTime.now(),
+      progress: 0.00
     ),
   ];
 
