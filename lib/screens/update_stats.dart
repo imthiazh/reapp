@@ -1,23 +1,35 @@
+import 'dart:convert';
+import 'package:http/http.dart' as http; 
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:emoji_feedback/emoji_feedback.dart';
-import '../models/user_notes.dart';
 
-class UpdateStats extends StatelessWidget {
+class UpdateStats extends StatefulWidget {
   static const routeName = '/update';
 
-  final GlobalKey<FormBuilderState> _fbKey = GlobalKey<FormBuilderState>();
-  //TextEditingController _controller = TextEditingController();
-  var _formData = UserNotes(
-      consumedLitres: 0.0,
-      moneySpent: 0.0,
-      days: 0.0,
-      weight: 0.0,
-      height: 0.0,
-      sleep: 0.0,
-      exerciseDuration: 0.0);
+  @override
+  _UpdateStatsState createState() => _UpdateStatsState();
+}
 
-  void _saveForm() {
+class _UpdateStatsState extends State<UpdateStats> {
+  double consumedLitres;
+
+  double moneySpent;
+
+  double days;
+
+  double weight;
+
+  double height;
+
+  double sleep;
+
+  double exerciseDuration;
+
+  final GlobalKey<FormBuilderState> _fbKey = GlobalKey<FormBuilderState>();
+
+  Future<void> _saveForm() async {
     final isValid = _fbKey.currentState
         .validate(); //to trigger all the validators in the various text field
     if (!isValid) {
@@ -25,6 +37,28 @@ class UpdateStats extends StatelessWidget {
       return;
     }
     _fbKey.currentState.save();
+    final FirebaseAuth auth = FirebaseAuth.instance;
+    // var DBref = FirebaseDatabase.instance.reference();
+    FirebaseUser user = await auth.currentUser();
+    String uid2 = user.uid;
+    // String uid2 = uid;
+    // print("UID is:" + uid2);
+    // print("hello");
+    void inputData() async {
+      String url = "https://reapp-4a214.firebaseio.com/userstats/"+uid2+".json";
+      // const url = "https://reapp-4a214.firebaseio.com/products.json";
+          http.post(url, body: json.encode({
+            "consumedLitres":consumedLitres,
+            "moneySpent":moneySpent,
+            "days":days,
+            "weight":weight,
+            "height":height,
+            "sleep":sleep,
+            "exerciseDuration":exerciseDuration,
+            "timestamp":DateTime.now().toString()
+          }));
+      }
+      inputData();
   }
 
   @override
@@ -52,15 +86,8 @@ class UpdateStats extends StatelessWidget {
                         max: 10,
                         initialValue: 0,
                         onSaved: (value) {
-                          _formData = UserNotes(
-                            consumedLitres: double.parse(value),
-                            moneySpent: _formData.moneySpent,
-                            days: _formData.days,
-                            weight: _formData.weight,
-                            height: _formData.height,
-                            sleep: _formData.sleep,
-                            exerciseDuration: _formData.exerciseDuration,
-                          );
+                          consumedLitres = double.parse(value.toString());
+                          print(value);
                         },
                       ),
                       SizedBox(
@@ -77,15 +104,7 @@ class UpdateStats extends StatelessWidget {
                           ],
                           keyboardType: TextInputType.number,
                           onSaved: (value) {
-                            _formData = UserNotes(
-                              consumedLitres: _formData.consumedLitres,
-                              moneySpent: double.parse(value),
-                              days: _formData.days,
-                              weight: _formData.weight,
-                              height: _formData.height,
-                              sleep: _formData.sleep,
-                              exerciseDuration: _formData.exerciseDuration,
-                            );
+                            moneySpent = double.parse(value.toString());
                           }),
                       SizedBox(
                         height: 10,
@@ -99,15 +118,7 @@ class UpdateStats extends StatelessWidget {
                           initialValue: 1,
                           step: 1,
                           onSaved: (value) {
-                            _formData = UserNotes(
-                              consumedLitres: _formData.consumedLitres,
-                              moneySpent: _formData.moneySpent,
-                              days: double.parse(value),
-                              weight: _formData.weight,
-                              height: _formData.height,
-                              sleep: _formData.sleep,
-                              exerciseDuration: _formData.exerciseDuration,
-                            );
+                            days = double.parse(value.toString());
                           }),
                       SizedBox(
                         height: 10,
@@ -125,15 +136,7 @@ class UpdateStats extends StatelessWidget {
                           ],
                           keyboardType: TextInputType.number,
                           onSaved: (value) {
-                            _formData = UserNotes(
-                              consumedLitres: _formData.consumedLitres,
-                              moneySpent: _formData.moneySpent,
-                              days: _formData.days,
-                              weight: double.parse(value),
-                              height: _formData.height,
-                              sleep: _formData.sleep,
-                              exerciseDuration: _formData.exerciseDuration,
-                            );
+                            weight = double.parse(value.toString());
                           }),
                       SizedBox(
                         height: 10,
@@ -151,15 +154,7 @@ class UpdateStats extends StatelessWidget {
                           ],
                           keyboardType: TextInputType.number,
                           onSaved: (value) {
-                            _formData = UserNotes(
-                              consumedLitres: _formData.consumedLitres,
-                              moneySpent: _formData.moneySpent,
-                              days: _formData.days,
-                              weight: _formData.weight,
-                              height: double.parse(value),
-                              sleep: _formData.sleep,
-                              exerciseDuration: _formData.exerciseDuration,
-                            );
+                            height = double.parse(value.toString());
                           }),
                       SizedBox(
                         height: 10,
@@ -173,15 +168,7 @@ class UpdateStats extends StatelessWidget {
                           initialValue: 1,
                           step: 1,
                           onSaved: (value) {
-                            _formData = UserNotes(
-                              consumedLitres: _formData.consumedLitres,
-                              moneySpent: _formData.moneySpent,
-                              days: _formData.days,
-                              weight: _formData.weight,
-                              height: _formData.height,
-                              sleep: double.parse(value),
-                              exerciseDuration: _formData.exerciseDuration,
-                            );
+                            sleep = double.parse(value.toString());
                           }),
                       SizedBox(
                         height: 10,
@@ -200,15 +187,7 @@ class UpdateStats extends StatelessWidget {
                           ],
                           keyboardType: TextInputType.number,
                           onSaved: (value) {
-                            _formData = UserNotes(
-                              consumedLitres: _formData.consumedLitres,
-                              moneySpent: _formData.moneySpent,
-                              days: _formData.days,
-                              weight: _formData.weight,
-                              height: _formData.height,
-                              sleep: _formData.sleep,
-                              exerciseDuration: double.parse(value),
-                            );
+                            exerciseDuration = double.parse(value.toString());
                           }),
                       SizedBox(
                         height: 10,

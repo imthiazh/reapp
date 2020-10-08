@@ -18,7 +18,7 @@ class MainDrawer extends StatelessWidget {
       title: Text(
         title,
         style: TextStyle(
-          fontFamily: 'RobotoCondensed',
+          fontFamily: 'OpenSans',
           fontSize: 24,
           fontWeight: FontWeight.bold,
         ),
@@ -51,6 +51,7 @@ class MainDrawer extends StatelessWidget {
           ),
           
           buildListTile('My Rewards', Icons.card_giftcard, () {
+            
             Navigator.of(context).pushNamed(MyRewards.routeName);
           }),
           buildListTile('My Notes', Icons.work, () {

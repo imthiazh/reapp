@@ -6,6 +6,7 @@ INJECTED from C:\Users\Imthiaz\AndroidStudioProjects\reapp\android\app\src\main\
 INJECTED from C:\Users\Imthiaz\AndroidStudioProjects\reapp\android\app\src\main\AndroidManifest.xml:1:1-33:12
 MERGED from C:\Users\Imthiaz\AndroidStudioProjects\reapp\android\app\src\main\AndroidManifest.xml:1:1-33:12
 MERGED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_database] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_auth] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core_web] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
@@ -14,6 +15,7 @@ MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Imthiaz\AndroidStudioPr
 MERGED from [:firebase_messaging] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-20:12
 MERGED from [:flutter_keyboard_visibility] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\flutter_keyboard_visibility\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:phone_number] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\phone_number\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:15:1-36:12
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.1.aar\f2ee41e829f11b69fcb19dfc0afd8ad6\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-19.2.0.aar\2af1fda4a2bbede9d06f2352d888b20e\AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\c052c58d35cebc37a63c746b19809208\AndroidManifest.xml:2:1-26:12
@@ -77,6 +79,8 @@ application
 ADDED from C:\Users\Imthiaz\AndroidStudioProjects\reapp\android\app\src\main\AndroidManifest.xml:9:5-32:19
 MERGED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
@@ -85,6 +89,8 @@ MERGED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\i
 MERGED from [:image_picker] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-20:19
 MERGED from [:firebase_messaging] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-18:19
 MERGED from [:firebase_messaging] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-18:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:28:5-34:19
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.1.aar\f2ee41e829f11b69fcb19dfc0afd8ad6\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.1.aar\f2ee41e829f11b69fcb19dfc0afd8ad6\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-19.2.0.aar\2af1fda4a2bbede9d06f2352d888b20e\AndroidManifest.xml:23:5-40:19
@@ -171,6 +177,8 @@ INJECTED from C:\Users\Imthiaz\AndroidStudioProjects\reapp\android\app\src\main\
 INJECTED from C:\Users\Imthiaz\AndroidStudioProjects\reapp\android\app\src\main\AndroidManifest.xml
 MERGED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -187,6 +195,8 @@ MERGED from [:flutter_keyboard_visibility] C:\Users\Imthiaz\AndroidStudioProject
 MERGED from [:flutter_keyboard_visibility] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\flutter_keyboard_visibility\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:phone_number] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\phone_number\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:phone_number] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\phone_number\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.1.aar\f2ee41e829f11b69fcb19dfc0afd8ad6\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-analytics-17.2.1.aar\f2ee41e829f11b69fcb19dfc0afd8ad6\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-19.2.0.aar\2af1fda4a2bbede9d06f2352d888b20e\AndroidManifest.xml:21:5-44
@@ -281,6 +291,8 @@ INJECTED from C:\Users\Imthiaz\AndroidStudioProjects\reapp\android\app\src\debug
 		INJECTED from C:\Users\Imthiaz\AndroidStudioProjects\reapp\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Imthiaz\AndroidStudioProjects\reapp\android\app\src\debug\AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\c052c58d35cebc37a63c746b19809208\AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\c052c58d35cebc37a63c746b19809208\AndroidManifest.xml:14:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.1.aar\fbe2569b48e82b408c785b3fc5dc5270\AndroidManifest.xml:22:5-67
@@ -297,12 +309,16 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:
 		ADDED from C:\Users\Imthiaz\AndroidStudioProjects\reapp\android\app\src\debug\AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_database] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_database] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_auth] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_auth] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_messaging] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-17:19
 MERGED from [:firebase_messaging] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-17:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:29:9-33:19
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-19.2.0.aar\2af1fda4a2bbede9d06f2352d888b20e\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-19.2.0.aar\2af1fda4a2bbede9d06f2352d888b20e\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\c052c58d35cebc37a63c746b19809208\AndroidManifest.xml:17:9-23:19
@@ -327,6 +343,12 @@ ADDED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build
 		ADDED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:cloud_firestore] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_database] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_database] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_database] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
 meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
 ADDED from [:firebase_auth] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
@@ -379,6 +401,30 @@ ADDED from [:firebase_messaging] C:\Users\Imthiaz\AndroidStudioProjects\reapp\bu
 		ADDED from [:firebase_messaging] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-82
 	android:name
 		ADDED from [:firebase_messaging] C:\Users\Imthiaz\AndroidStudioProjects\reapp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-127
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\c052c58d35cebc37a63c746b19809208\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\c052c58d35cebc37a63c746b19809208\AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.1.aar\fbe2569b48e82b408c785b3fc5dc5270\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.1.aar\fbe2569b48e82b408c785b3fc5dc5270\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.1.aar\f705d06b3137002e10a63c81893f6e67\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.1.aar\f705d06b3137002e10a63c81893f6e67\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.1.aar\e54f2da2199092f0322b0e9a3dd6be88\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.1.aar\e54f2da2199092f0322b0e9a3dd6be88\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.1.aar\2e5c5f0bd731c068984a6164e6dfec94\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.1.aar\2e5c5f0bd731c068984a6164e6dfec94\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.1.aar\a1cbe4abcd7a5f32774036c5e81f6272\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.1.aar\a1cbe4abcd7a5f32774036c5e81f6272\AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\grpc-android-1.21.0.aar\4afec066cafcc080c20f18f1e795ff74\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\grpc-android-1.21.0.aar\4afec066cafcc080c20f18f1e795ff74\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-database-17.0.0.aar\7d0f15ed60dc94e2b523fcb7ab179436\AndroidManifest.xml:31:17-109
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-19.2.0.aar\2af1fda4a2bbede9d06f2352d888b20e\AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
@@ -401,22 +447,6 @@ ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\c
 		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-19.2.0.aar\2af1fda4a2bbede9d06f2352d888b20e\AndroidManifest.xml:38:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-auth-19.2.0.aar\2af1fda4a2bbede9d06f2352d888b20e\AndroidManifest.xml:37:17-109
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\c052c58d35cebc37a63c746b19809208\AndroidManifest.xml:13:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.1.aar\fbe2569b48e82b408c785b3fc5dc5270\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-17.2.1.aar\fbe2569b48e82b408c785b3fc5dc5270\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-iid:20.0.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.1.aar\f705d06b3137002e10a63c81893f6e67\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:20.0.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\firebase-iid-20.0.1.aar\f705d06b3137002e10a63c81893f6e67\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.1.aar\e54f2da2199092f0322b0e9a3dd6be88\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-17.2.1.aar\e54f2da2199092f0322b0e9a3dd6be88\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.1.aar\2e5c5f0bd731c068984a6164e6dfec94\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-17.2.1.aar\2e5c5f0bd731c068984a6164e6dfec94\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.1.aar\a1cbe4abcd7a5f32774036c5e81f6272\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-17.2.1.aar\a1cbe4abcd7a5f32774036c5e81f6272\AndroidManifest.xml:24:5-79
-MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\grpc-android-1.21.0.aar\4afec066cafcc080c20f18f1e795ff74\AndroidManifest.xml:11:5-79
-MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\grpc-android-1.21.0.aar\4afec066cafcc080c20f18f1e795ff74\AndroidManifest.xml:11:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\c052c58d35cebc37a63c746b19809208\AndroidManifest.xml:13:22-76
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
 ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\Imthiaz\.gradle\caches\transforms-1\files-1.1\jetified-firebase-firestore-21.3.0.aar\c052c58d35cebc37a63c746b19809208\AndroidManifest.xml:20:13-22:85
 	android:value
