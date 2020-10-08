@@ -1,5 +1,9 @@
-#Mon Oct 05 20:06:05 IST 2020
+#Thu Oct 08 08:30:51 IST 2020
 base.10=C\:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+path.35=classes.dex
+path.34=classes.dex
+path.33=classes.dex
+path.32=classes.dex
 path.31=classes2.dex
 path.30=classes.dex
 base.9=C\:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\26
@@ -28,9 +32,13 @@ path.20=classes.dex
 path.6=classes.dex
 path.5=classes.dex
 path.4=classes.dex
+renamed.35=classes36.dex
 path.3=classes.dex
+renamed.34=classes35.dex
 path.2=classes.dex
+renamed.33=classes34.dex
 path.1=classes.dex
+renamed.32=classes33.dex
 path.0=classes.dex
 renamed.31=classes32.dex
 renamed.30=classes31.dex
@@ -74,6 +82,10 @@ renamed.13=classes14.dex
 renamed.12=classes13.dex
 renamed.11=classes12.dex
 renamed.10=classes11.dex
+base.35=C\:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\31
+base.34=C\:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\33
+base.33=C\:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\34
+base.32=C\:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\32
 base.31=C\:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\2
 base.30=C\:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\10
 base.29=C\:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\30
