@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:http/http.dart' as http; 
+import 'package:http/http.dart' as http;
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
@@ -57,8 +57,33 @@ class _UpdateStatsState extends State<UpdateStats> {
             "exerciseDuration":exerciseDuration,
             "timestamp":DateTime.now().toString()
           }));
+
+        if(consumedLitres>0){
+          String url1 = "https://reapp-4a214.firebaseio.com/last_consumed/"+uid2+".json";
+        // const url = "https://reapp-4a214.firebaseio.com/products.json";
+            http.post(url1, body: json.encode({
+              "timestamp":DateTime.now().toString()
+            }));
+        }
+
+        String url3 = "https://reapp-4a214.firebaseio.com/last_consumed/"+uid2+".json";
+        // const url = "https://reapp-4a214.firebaseio.com/products.json";
+          dynamic resp = await http.get(url3);
+          // dynamic json_resp;
+          print(json.decode(resp.body));
+          resp=json.decode(resp.body) as Map<String, dynamic>;
+          int count = 0;
+          String last_date;
+          // print(json_resp['timestamp']);
+          resp.forEach((prodId, prodData) {
+            last_date = prodData['timestamp'];
+          });
+          // String last = json_resp[count]['timestamp'];
+          print(last_date);
       }
       inputData();
+
+
   }
 
   @override
