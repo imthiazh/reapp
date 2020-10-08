@@ -32,6 +32,8 @@ dependencies:
   percent_indicator: ^2.1.5
   flutter_form_builder: ^3.14.0
   emoji_feedback: ^0.1.0
+  intl: ^0.16.1
+  flutter_masked_text: ^0.8.0
   
   
 

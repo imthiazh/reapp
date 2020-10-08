@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Imthiaz\\AndroidStudioProjects\\reapp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
+            "outputFile": "D:\\app_dev\\projects\\reapp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Imthiaz\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-17.0.0.aar\\3dcf88af20b213321e681754f1c67642\\res\\values-pl\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "198",
-                        "endOffsets": "445"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1253",
-                        "endColumns": "198",
-                        "endOffsets": "1447"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Imthiaz\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.1.0.aar\\0a862ccdc93a653e9dfee06e3a3dc03d\\res\\values-pl\\values.xml",
+                    "source": "C:\\Users\\VCadmin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.1.0.aar\\03fe42e5930bf7f1a3a02d93cf8e9bb9\\res\\values-pl\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,24 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Imthiaz\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-firebase-messaging-20.0.1.aar\\f973bbc3a7ae39f1a5e188ba37940721\\res\\values-pl\\values.xml",
+                    "source": "C:\\Users\\VCadmin\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-17.0.0.aar\\2dde576bffb633012e0be137c4e9409c\\res\\values-pl\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
-                        "startOffsets": "207",
-                        "endColumns": "98",
-                        "endOffsets": "305"
+                        "startOffsets": "247",
+                        "endColumns": "198",
+                        "endOffsets": "445"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "10",
                         "startColumns": "4",
-                        "startOffsets": "2846",
-                        "endColumns": "102",
-                        "endOffsets": "2944"
+                        "startOffsets": "1253",
+                        "endColumns": "198",
+                        "endOffsets": "1447"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Imthiaz\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\0bdf3926c3fdf84da82fe9cadee224dd\\res\\values-pl\\values-pl.xml",
+                    "source": "C:\\Users\\VCadmin\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\42d3e7c9157df60cff2a67ae7644728a\\res\\values-pl\\values-pl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -69,6 +52,23 @@
                         "startOffsets": "2949",
                         "endColumns": "100",
                         "endOffsets": "3045"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VCadmin\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-firebase-messaging-20.0.1.aar\\4ac3e08cd119980a47d2f600da6e3691\\res\\values-pl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "207",
+                        "endColumns": "98",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2846",
+                        "endColumns": "102",
+                        "endOffsets": "2944"
                     }
                 }
             ]

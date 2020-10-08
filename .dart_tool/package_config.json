@@ -188,6 +188,12 @@
       "languageVersion": "2.1"
     },
     {
+      "name": "flutter_masked_text",
+      "rootUri": "file:///C:/Users/VCadmin/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_masked_text-0.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "1.23"
+    },
+    {
       "name": "flutter_plugin_android_lifecycle",
       "rootUri": "file:///C:/Users/VCadmin/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11",
       "packageUri": "lib/",
@@ -452,7 +458,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-10-05T15:02:26.385852Z",
+  "generated": "2020-10-08T05:42:22.667126Z",
   "generator": "pub",
   "generatorVersion": "2.10.0"
 }

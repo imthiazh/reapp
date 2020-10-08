@@ -14,6 +14,7 @@ import 'package:reapp/screens/call_center.dart';
 import 'package:reapp/screens/reward.dart';
 import 'package:reapp/screens/update_stats.dart';
 import 'package:reapp/widgets/main_drawer.dart';
+import 'package:intl/intl.dart';
 
 import 'models/user.dart';
 
@@ -27,7 +28,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   final FirebaseMessaging _messaging = FirebaseMessaging();
 
   @override
