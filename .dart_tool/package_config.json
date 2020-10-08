@@ -152,6 +152,18 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "firebase_database",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-3.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "firebase_messaging",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-6.0.16",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///C:/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -320,6 +332,12 @@
       "languageVersion": "2.3"
     },
     {
+      "name": "platform",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "1.24"
+    },
+    {
       "name": "plugin_platform_interface",
       "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-1.0.2",
       "packageUri": "lib/",
@@ -440,7 +458,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2020-10-08T03:08:36.444945Z",
+  "generated": "2020-10-08T03:12:04.054118Z",
   "generator": "pub",
   "generatorVersion": "2.10.0"
 }

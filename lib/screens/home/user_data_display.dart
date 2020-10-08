@@ -88,6 +88,7 @@ void initState()
             SizedBox(height: 30.0),
             Text("Name: "+name,style: TextStyle(
         color: Colors.black,
+        fontFamily: 'RaleWay',
         fontWeight: FontWeight.bold,
         fontSize: 20)),
         SizedBox(height: 30.0),
